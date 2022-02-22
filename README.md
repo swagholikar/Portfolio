@@ -1,3 +1,3 @@
 # Welcome,
 To my own personal portfolio....
-*https://architnh.github.io/archithardikar/
+* https://architnh.github.io/archithardikar/
