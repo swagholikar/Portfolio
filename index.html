@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>My Portfolio</title>
-	<link rel="shortcut icon" href="favicon.png" type="image/x-icon">
-	<link rel="icon" href="favicon.png" type="image/x-icon">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -73,7 +73,7 @@
                 </div>
                 <div class="col-md-8">
                     <p>
-			 I am a Master's student at University of Pennsylvania. I am currently involved in quadrotor path-planning research at Modlab. I am primarily interested in computer vision applications in robotics, and autonomous robotic systems. 
+			 I am a Master's student at University of Pennsylvania. I am primarily engaged in computer vision and path planning projects in robotics, and am enthusiastic about autonomous robotic systems and sensors. 
                     </p>
 			<p>  </p>
 		    <p>
@@ -91,13 +91,11 @@
             <div data-date="February 2022 – Current">
                 <h3>University of Pennsylvania</h3>
                 <h4>Graduate Research Assistant</h4>
-                <p>
-                    Currently working on quadrotor path planning project at Modlab and Kumar robotics lab. 
-		</p>
+                <p></p>
             </div>
 
             <div data-date="December 2020 – August 2021">
-                <h3>Eaton India Innovation Centre LLP.</h3>
+                <h3>Eaton India Innovation Center LLP.</h3>
                 <h4>Associate Engineer</h4>
                 <p>
                     Served as a SDE at Eaton Aerospace. Developed digitization ML tools for automated requirements assesment.
@@ -137,6 +135,28 @@
         <h2 class="heading">Projects</h2>
         <div class="container">
             <div class="row">
+
+		<div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/RRT.jpg" width="300" height="300" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3 align = "left">Local Path Planning Methods- RRT, RRT*</h3>
+                        <p align = "left">
+                             Implemented Rapidly Exploring Random Tree (RRT) and RRT* for local path planning. Localization using Adaptive Monte Carlo (AMCL) Particle Filter. Hector Odometry for 2D map generation and Pure Pursuit along spline for close loop circuit racing.
+			</p>
+			<p align = "left">
+                        	Videos:     
+			</p>
+                        <a href="https://youtu.be/JroWHwE2HVg">RRT</a> <p></p>
+			<a href="https://youtu.be/NfnwbfQKN34">RRT*</a> <p></p>
+			<a href="https://youtu.be/u7Lv9G6eQF8">Demonstration - RViz</a> <p></p>
+			<a href="https://youtu.be/8EwK30hDBQM">Demonstration - Actual Car</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
 		    
 		<div class="project shadow-large">
                     <div class="project-image">
@@ -144,9 +164,9 @@
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3 align = "left">Pure Pursuit using SLAM (Simultaneous Localization and Mapping) and Particle Filter for localization</h3>
+                        <h3 align = "left">SLAM (Simultaneous Localization and Mapping) and Particle Filter for localization</h3>
                         <p align = "left">
-                             Implemented point to line iterative close point scan matching  algorithm.  Achieved accurate scan alignment and localization estimation using particle filter. Implemented Pure pursuit for autonomous racing car.
+                             Demonstrated Point to Line Iterative Close Point scan match on occupancy grid map. Particle Filter for state estimation and map localization. Pure pursuit for locomotion.
 			</p>
 			<p align = "left">
                         	Videos:     
@@ -164,31 +184,17 @@
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3 align = "left">Autonomous Racing Reactive Navigation - Gap Follow</h3>
+                        <h3 align = "left">Autonomous Racing Reactive Navigation</h3>
                         <p align = "left">
-                             Gap follow and Obstacle avoidance using Hokuyu 2D LIDAR. Path planning using reactive navigation in close loop college corridor ROS2 and C++. 
+                             Gap follow and Obstacle avoidance using Hokuyu 2D LIDAR. Reactive navigation in close loop college corridor ROS2 and C++. Wall follow and Follow-The-Gap algorithm
                         </p>
-                        <a href="https://youtu.be/u3gtZRal48U">Video</a>
+                        <a href="https://youtu.be/u3gtZRal48U">Gap Follow</a> <p></p>
+			<a href="https://youtu.be/Ph_ML8Rb2_0">Wall Follow</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
                 <!-- End .project -->
 
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/wallfollow.jpg" width="300" height="300" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3 align = "left">Autonomous Racing Wall Follow</h3>
-                        <p align = "left">
-                             Implemented wall following and tuned a PID controller for smooth locomotion. Wall follow was implemented in loop circuit using Hokuyu 2D LIDAR scans using ROS2 and C++. Safety node put in place to prevent car crash. PID tuning and design of control for steering toward direction of maximum LIDAR range.  
-			</p>
-                        <a href="https://youtu.be/Ph_ML8Rb2_0">Video</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
 		
 		<div class="project shadow-large">
                     <div class="project-image">
@@ -271,7 +277,7 @@
                             <a href="https://thethirdeyeexplores.wordpress.com/" target="_blank"><i class="fa fa-wordpress" aria-hidden="true"></i></a>
                         </li>
 			 <li>
-                            <a href="https://www.youtube.com/channel/UCjZWPNPYqB35rW45WRn-vJQ" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                            <a href="https://www.youtube.com/c/ArchitHardikarPhotography" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
                         </li>
 			    
 
